@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e tosa</title>
+</head>
+
+<body>
+
+    <a href="menu.html">Home</a>
+
+    <br><br>
+
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+    <form action="">
+
+        <fieldset>
+
+            <br>
+
+            <legend>Identificação do dono do animal</legend>
+
+            <div>
+                <label for="">Nome:</label>
+                <input type="text" size="50" maxlength="150" placeholder="Identificação do dono do animal">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Endereço:</label>
+                <input type="text" size="50" placeholder="Digite o endereço">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">CEP:</label>
+                <input type="number" size="50" maxlength="9" placeholder=" XXXXX-XXX">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">E-mail:</label><br>
+                <input type="email" size="50" maxlength="85" placeholder="Digite o endereço de email">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">Tel/Cel:</label>
+                <input type="numer" size="20" maxlength="13" placeholder="99 99999-9999">
+            </div>
+
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Animal</legend>
+
+            <br>
+
+            <div>
+                <label for="">Nome:</label>
+                <input type="text" size="50" maxlength="150" placeholder="Digite o nome do animal">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">Porte do cão:</label>
+                <input type="radio" name="porte"><label>Pequeno</label>
+                <input type="radio" name="porte"><label>Médio</label>
+                <input type="radio" name="porte"><label>Grande</label>
+
+                <br><br>
+
+                <div>
+                    <label for="">Tipo de tosa:</label>
+                    <select name="tipodetosa">
+                        <option value="tosa1">Nenhuma</option>
+                        <option value="tosa2">Tosa higienica</option>
+                        <option value="tosa3">Ursinho</option>
+                        <option value="tosa4">Na maquina</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="">Observações:</label>
+                    <textarea cols="65" rows="2" placeholder="Digite alguma informação do animal se necessário"></textarea>
+                </div>
+
+                <br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+
+            <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
+
+            <div>
+                <label>Indique os dias da semana de sua preferência:</label>
+                
+                <br><br>
+
+                <input type="checkbox" name="ter">
+                <label>Terça-feira</label>
+
+                <input type="checkbox" name="qua">
+                <label>Quarta-feira</label>
+
+                <input type="checkbox" name="qui">
+                <label>Quinta-feira</label>
+
+                <input type="checkbox" name="sex">
+                <label>Sexta-feira</label>
+
+                <input type="checkbox" name="sex">
+                <label>Sábado</label>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">Primeira opção de horário:</label>
+                <input type="date" size="15">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">Segunda opção de horário:</label>
+                <input type="date" size="15">
+            </div>
+
+            <br>
+            
+        </fieldset>
+
+        <input type="submit" value="enviar">
+
+    </form>
+
+</body>
